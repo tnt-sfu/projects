@@ -1,0 +1,16 @@
+[StartTime]
+Ibeam-stressAnalsis.MFC=1s
+[SolverState]
+Ibeam-stressAnalsis.MFC=2
+[MainFrame]
+Ibeam-stressAnalsis.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+Ibeam-stressAnalsis.MFC=No
+[SolverType]
+Ibeam-stressAnalsis.MFC=Linear Analysis
+[StudyType]
+Ibeam-stressAnalsis.MFC=0
+[StudyName]
+Ibeam-stressAnalsis.MFC=stressAnalsis
+[Solver]
+Ibeam-stressAnalsis.MFC=Iterative
