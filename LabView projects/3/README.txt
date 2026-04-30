@@ -1,0 +1,32 @@
+Materials:
+ - ICT3 station # 20
+Functions/Blocks and Actions:
+- While loop set to run indefinetely
+	- Main control loop where all data i/o is fed through and processed
+	- DAQ stop and clear blocks execute upon exiting this loop
+- Case blocks
+	- Used to couple the ICT start/stop buttons to control the chain motor (chain and belt motor for exc 1)
+- Local Variables
+	- All relevant indicators and buttons according to ICT functions from lab manual
+- Buttons
+	- Inputs to control ICT machine
+- LED Indicators
+	- Outputs from ICT machine
+- Not gates
+	- ICT_Stop, Top Solenoid, Bottom Solenoid, and Assemble Check are normally on, so we invert the read value to determine state
+- DAQ Port Constants
+	- Used to configure ports/lines for the ICT machine hardware, fed into DAQ Inputs/Outputs
+- DAQ Inputs
+	- Definition in block diagram in conjunction with port constants
+- DAQ Outputs
+	- Definition in block diagram in conjunction with port constants
+- DAQ Start Blocks
+	- Definition in block diagram in conjunction with port constants
+- DAQ Read Blocks
+	- Used to read data from digital input ports (ICT outputs)
+- DAQ Write Blocks
+	- Used to write data to digital output ports (ICT outputs)
+- DAQ Stop Blocks
+	- Stops data aquisition from respective setup, ensures system is set to idle state upon completion
+- DAQ Clear Blocks
+	- Releases all control mechanisms from live processes, clearing te DAQ system memory
